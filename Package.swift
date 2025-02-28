@@ -22,8 +22,8 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"),
-    .package(url: "https://github.com/pointfreeco/swift-case-paths", from: "1.0.0"),
-    .package(url: "https://github.com/pointfreeco/swift-custom-dump", from: "1.0.0"),
+    .package(url: "https://github.com/ovcovc/swift-case-paths", .branch("fix")),
+    .package(url: "https://github.com/ovcovc/swift-custom-dump", .branch("fix")),
     .package(url: "https://github.com/ovcovc/swift-issue-reporting", .branch("release/1_5_2"))
   ],
   targets: [
